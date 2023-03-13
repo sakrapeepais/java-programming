@@ -17,6 +17,9 @@ Just the Class is a GitHub Pages template developed for the purpose of quickly d
 - a [staff](staff.md) page,
 - and a weekly [schedule](schedule.md).
 
+{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+{% for staffer in instructors %} {{ staffer }} {% endfor %}
+
 Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
 
 - automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
