@@ -1,9 +1,9 @@
 ---
-name: Kevin Lin
+name: Fernando Pérez
 role: Instructor
-email: me@example.com
-website: https://kevinl.info
-photo: kevin.jpg
+email: fernando.perez@berkeley.edu
+website: http://fperez.org/
+photo: http://ds100.org/fa21/resources/assets/staff_pics/Fernando_Perez.png
+pronouns: he/his
+oh: W/Th, 11am - 12pm
 ---
-
-[Schedule an appointment](#){: .btn .btn-outline }
